@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Karl Tillström</Authors>
+    <Company>Tillstrom Engineering AB</Company>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/skarlman/LazyLevenshteinWithThreshold</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/skarlman/LazyLevenshteinWithThreshold</RepositoryUrl>
+    <RepositoryType>Git</RepositoryType>
+    <PackageTags>Levenshtein, String Distance</PackageTags>
+    <Description>A C# implementation of the Levenshtein string distance, using lazy evaluation of its diagonals.
+Time Complexity: O( |a| * dist(A,B) )
+
+Supports thresholding to skip calculations when distance is greater than the threshold
+
+https://www.codeinthenorth.com</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+</Project>
